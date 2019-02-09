@@ -1,0 +1,10 @@
+1. https://leetcode.com/problems/squares-of-a-sorted-array/description/
+2. https://leetcode.com/problems/sort-array-by-parity/description/
+3. https://leetcode.com/problems/flipping-an-image/description/
+4. https://leetcode.com/problems/fibonacci-number/description/
+5. https://leetcode.com/problems/array-partition-i/description/
+6. https://leetcode.com/problems/move-zeroes/description/
+7. https://leetcode.com/problems/reverse-string/description/
+8. https://leetcode.com/problems/to-lower-case/description/
+9. https://leetcode.com/problems/valid-palindrome/description/
+10. https://leetcode.com/problems/implement-strstr/description/
