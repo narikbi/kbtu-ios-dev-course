@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Jhm-iB-IZD">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Quiz View Controller-->
+        <scene sceneID="Ewu-wC-EQv">
+            <objects>
+                <viewController id="Jhm-iB-IZD" customClass="QuizViewController" customModule="QuizUp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3qF-5q-lav">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Адамзат тарихы дамуының ең алғашқы кезеңі " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RYc-uN-kiX">
+                                <rect key="frame" x="16" y="52" width="343" height="107.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NzE-IH-2C0">
+                                <rect key="frame" x="16" y="209.5" width="343" height="44"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="aei-QN-pdj"/>
+                                </constraints>
+                                <state key="normal" title="500-200 мың жыл бұрын">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="aButtonTapped:" destination="Jhm-iB-IZD" eventType="touchUpInside" id="zBy-QR-LDW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SRP-uI-4hi">
+                                <rect key="frame" x="16" y="273.5" width="343" height="44"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="i1U-0Z-USC"/>
+                                </constraints>
+                                <state key="normal" title="Темір дәуірі">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="bButtonTapped:" destination="Jhm-iB-IZD" eventType="touchUpInside" id="sLS-HU-JkN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QOr-aD-9zk">
+                                <rect key="frame" x="16" y="337.5" width="343" height="44"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="y5L-Dp-E1I"/>
+                                </constraints>
+                                <state key="normal" title="Рулық тайпалық кезең">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="cButtonTapped:" destination="Jhm-iB-IZD" eventType="touchUpInside" id="Hkx-iH-SoX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wdp-tG-SY9">
+                                <rect key="frame" x="16" y="401.5" width="343" height="44"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="281-Q2-9Go"/>
+                                </constraints>
+                                <state key="normal" title="Андронов кезеңі">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="dButtonTapped:" destination="Jhm-iB-IZD" eventType="touchUpInside" id="fDL-W3-d1m"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gyU-fY-Yb7">
+                                <rect key="frame" x="16" y="465.5" width="343" height="44"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="0vy-cF-33W"/>
+                                </constraints>
+                                <state key="normal" title="Тас дәуірі">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="eButtonTapped:" destination="Jhm-iB-IZD" eventType="touchUpInside" id="84F-gp-oYf"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Сұрақ: 1/25" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zB2-ie-x1f">
+                                <rect key="frame" x="16" y="549.5" width="343" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="NzE-IH-2C0" firstAttribute="leading" secondItem="XRn-LZ-qDU" secondAttribute="leading" constant="16" id="0I5-Rs-svo"/>
+                            <constraint firstItem="SRP-uI-4hi" firstAttribute="top" secondItem="NzE-IH-2C0" secondAttribute="bottom" constant="20" id="2Or-Kg-bej"/>
+                            <constraint firstItem="XRn-LZ-qDU" firstAttribute="trailing" secondItem="gyU-fY-Yb7" secondAttribute="trailing" constant="16" id="3nd-l6-hHL"/>
+                            <constraint firstItem="XRn-LZ-qDU" firstAttribute="trailing" secondItem="RYc-uN-kiX" secondAttribute="trailing" constant="16" id="3pG-ea-58k"/>
+                            <constraint firstItem="SRP-uI-4hi" firstAttribute="leading" secondItem="XRn-LZ-qDU" secondAttribute="leading" constant="16" id="546-I8-I9S"/>
+                            <constraint firstItem="zB2-ie-x1f" firstAttribute="top" secondItem="gyU-fY-Yb7" secondAttribute="bottom" constant="40" id="5hu-VX-9WN"/>
+                            <constraint firstItem="XRn-LZ-qDU" firstAttribute="trailing" secondItem="zB2-ie-x1f" secondAttribute="trailing" constant="16" id="7ZB-D7-Gq1"/>
+                            <constraint firstItem="gyU-fY-Yb7" firstAttribute="top" secondItem="Wdp-tG-SY9" secondAttribute="bottom" constant="20" id="IGl-ZN-vqr"/>
+                            <constraint firstItem="RYc-uN-kiX" firstAttribute="top" secondItem="XRn-LZ-qDU" secondAttribute="top" constant="32" id="Iye-Xz-UZQ"/>
+                            <constraint firstItem="Wdp-tG-SY9" firstAttribute="top" secondItem="QOr-aD-9zk" secondAttribute="bottom" constant="20" id="Tfl-5r-a3O"/>
+                            <constraint firstItem="RYc-uN-kiX" firstAttribute="leading" secondItem="XRn-LZ-qDU" secondAttribute="leading" constant="16" id="V9b-d8-ARJ"/>
+                            <constraint firstItem="Wdp-tG-SY9" firstAttribute="leading" secondItem="XRn-LZ-qDU" secondAttribute="leading" constant="16" id="XQ0-OK-qdg"/>
+                            <constraint firstItem="gyU-fY-Yb7" firstAttribute="leading" secondItem="XRn-LZ-qDU" secondAttribute="leading" constant="16" id="cDz-CY-WCz"/>
+                            <constraint firstItem="XRn-LZ-qDU" firstAttribute="trailing" secondItem="Wdp-tG-SY9" secondAttribute="trailing" constant="16" id="doY-mT-iXq"/>
+                            <constraint firstItem="XRn-LZ-qDU" firstAttribute="trailing" secondItem="NzE-IH-2C0" secondAttribute="trailing" constant="16" id="fW7-Ix-KxV"/>
+                            <constraint firstItem="XRn-LZ-qDU" firstAttribute="trailing" secondItem="SRP-uI-4hi" secondAttribute="trailing" constant="16" id="rFJ-H6-pFs"/>
+                            <constraint firstItem="QOr-aD-9zk" firstAttribute="leading" secondItem="XRn-LZ-qDU" secondAttribute="leading" constant="16" id="wHh-zE-mX0"/>
+                            <constraint firstItem="NzE-IH-2C0" firstAttribute="top" secondItem="RYc-uN-kiX" secondAttribute="bottom" constant="50" id="wI2-cu-JYD"/>
+                            <constraint firstItem="XRn-LZ-qDU" firstAttribute="trailing" secondItem="QOr-aD-9zk" secondAttribute="trailing" constant="16" id="xFm-0g-YDJ"/>
+                            <constraint firstItem="QOr-aD-9zk" firstAttribute="top" secondItem="SRP-uI-4hi" secondAttribute="bottom" constant="20" id="yBQ-0B-Fw8"/>
+                            <constraint firstItem="zB2-ie-x1f" firstAttribute="leading" secondItem="XRn-LZ-qDU" secondAttribute="leading" constant="16" id="yiB-cz-kuD"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="XRn-LZ-qDU"/>
+                    </view>
+                    <connections>
+                        <outlet property="aButton" destination="NzE-IH-2C0" id="R8R-vU-uVf"/>
+                        <outlet property="bButton" destination="SRP-uI-4hi" id="71o-Q4-qa8"/>
+                        <outlet property="cButton" destination="QOr-aD-9zk" id="1yc-g8-IR6"/>
+                        <outlet property="dButton" destination="Wdp-tG-SY9" id="YTC-cU-xcg"/>
+                        <outlet property="eButton" destination="gyU-fY-Yb7" id="Euy-cQ-Kbm"/>
+                        <outlet property="questionLabel" destination="RYc-uN-kiX" id="v01-Oa-jfF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WtZ-Tm-hoz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="127.2" y="99.400299850074973"/>
+        </scene>
+    </scenes>
+</document>
